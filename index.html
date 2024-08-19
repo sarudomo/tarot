@@ -4,24 +4,30 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Your Tarot</title>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&family=Noto+Serif+KR:wght@200..900&family=Oswald&display=swap" rel="stylesheet">
     <script src="js/js.js"></script>
     <style>
         *{padding: 0; margin: 0; box-sizing: border-box;}
-        #layout{margin: auto; border: 2px solid tomato; max-width: 1024px;}
-        h1 {text-align: center;}
-        section{height: 70vh; text-align: center;}
-        #card img{height: 70%; margin-top: 3vh;}
+        #layout{margin: auto; border: 2px solid tomato; max-width: 1024px; min-width: 400px;
+            font-family: "Oswald", sans-serif; height:100vh;}
+        h1 {text-align: center; color:brown}
+        section{height: 50vh; text-align: center;}
+        img{height: 70%; margin-top: 3vh;}
     </style>
 </head>
 <body>
     <div id="layout">
         <head>
-            <h1>일간 타로 뽑기</h1>
+            <h1>Tarot for your daily</h1>
         </head>
         <section>
-                <p>당신의 하루를 책임질 카드는?</p>
+                <p>Click beneath card for your today's lucky</p>
                 <a href="#" id="card"><img src="images/0.jpg" alt="card1"></a>
         </seciton>
+        <section>
+            <p>advice for you</p>
+            <a href="#" id="advice"><img src="images/0.jpg" alt="card2"></a>
+        </section>
     </div>
 </body>
 </html>
