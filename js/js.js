@@ -4,11 +4,11 @@ document.addEventListener("DOMContentLoaded", () => {
     const img = document.querySelector("#card img")
 
     const random  = (max,min) => Math.trunc(Math.random() * (max-min) + min);
-    console.log(random(1 , 45))
+
 
     let major;
     card.addEventListener('click' , () => {
-        major = `images/${random(1,23)}.jpg`;
+        major = `images/${random(1,79)}.jpg`;
         img.setAttribute("src" , major);
     }, {once:true} );
 
